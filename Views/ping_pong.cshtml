@@ -1,0 +1,11 @@
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+
+<h1 class="well">... With the input of @Model.Count the Results are...!!!</h1>
+<div id="result">
+  @foreach (string result in Model)
+  {
+    <p>@result</p>
+  }
+</div>
